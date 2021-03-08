@@ -31,7 +31,7 @@ export function LivesListView () {
       ? (<div className="loading"><div className="square" /></div>)
       : (
                 <div className="lives-list-page">
-                    <h1 className="title">Fit On - Live</h1>
+                    <h1 className="title">Fit On 2021 - Live</h1>
                     <button onClick={handleNewLive} className="start-live-button" type="button">Start new live</button>
                     <h2 className="lives-title">Lives</h2>
                     {
